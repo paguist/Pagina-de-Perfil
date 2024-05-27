@@ -1,0 +1,166 @@
+
+/*Estilos barra de navegacion */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f4f4f;
+    width: 100%;
+    height:50px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.nav-title{
+   margin: 0px;
+   color: antiquewhite;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.nav-links a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.btn{
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px black;
+    color:antiquewhite;
+    background-color: rgb(0, 81, 255);
+    cursor: pointer;
+    font-size: 17px;
+}
+
+/* Estilos Tarjeta de Usuario */
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 390px;
+    background:linear-gradient(to top, #d9e5e7 75%,#055a5a 50%);
+    margin: 10px;
+    border-radius: 5px;
+      padding-left: 10px;
+}
+.nombre{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin: 0px;
+    padding: 0;   
+}
+
+h1{
+    margin: 0; 
+}
+
+.foto-de-perfil{
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.residencia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+    padding: 0;   
+}
+
+.icono-de-ubicacion{
+    height: 15px;
+    width: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.residencia-1{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.habilidades{
+    display: flex;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+}
+
+.habilidades-1{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap:10px;
+}
+
+.habilidades-2{
+    margin: 0;
+    padding: 0;
+}
+
+.editar-perfil{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+}
+
+.icono-de-configuracion{
+    height: 12px;
+    width: 12px;
+}
+
+.editar-perfil-1{
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Estilos Tarjeta de Educacion */
+.educacion{
+    background-color: #d9e5e7;
+    width: 400px;
+    height:150px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.educacion-titulo{
+    background-color:#055a5a ;
+    color:#ffffff;
+    padding: 10px;
+    margin: 0;
+}
+
+#educacion-listado{
+    list-style: none;
+    margin: 10px;
+    
+}
+.educacion-cursos{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.educacion-fechas, .educacion-conocimientos{
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.educacion-fechas{
+    color: #314141;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
